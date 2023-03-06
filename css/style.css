@@ -10,6 +10,7 @@ body {
   height: auto;
 }
 
+/* The Cover Page ------------------------------------------------------> */
 .theCover {
   width: 100%;
   height: 100vh;
@@ -37,6 +38,11 @@ body {
   max-height: 335px;
   max-width: 170px;
 }
+.hlContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
 .hl {
   margin: 0;
   border: 1.5px solid #ff914d;
@@ -61,6 +67,139 @@ body {
   font-size: 16px;
 }
 
+/* Para Empezar Page ------------------------------------------------------> */
+.generalContainers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+  color: #676767;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.subTitles {
+  display: flex;
+  justify-content: center;
+  color: #ff914d;
+  font-family: 'Caveat';
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 22px;
+}
+
+.txtDiv {
+  padding: 0 40px;
+}
+
+/* Retos Page ---------------------------------------------------------> */
+.txtContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: #ffffff;
+  background-color: #9c266b;
+  text-align: center;
+  padding: 6px 30px 7px 30px;
+  margin-bottom: 25px;
+}
+
+.txtContainerTitle {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.txtContainerText {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 38px;
+  width: 100%;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #9c266b;
+  font-size: 14px;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 10px; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/* Conoce a los Usuarios -----------------------------------------------------> */
+.personCard {
+  display: flex;
+  border: 1px solid #9c266b;
+  padding: 10px;
+  margin-bottom: 26px;
+}
+.personInfo {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 14px;
+}
+.personDescr {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+}
+.personImg > img {
+  width: 85px;
+  height: 85px;
+}
+
+/* Auditoría Competitiva -----------------------------------------------------> */
+.competitors {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Comienzo de Diseño ---------------------------------------------------------> */
+.imgContent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.imgContent > img {
+  width: 300px;
+  margin-bottom: 21px;
+}
+.secondSubTitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #ff914d;
+  font-family: 'Caveat';
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 22px;
+}
+.txtContainerCentered {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 38px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
 /* Media queries ------------------------------------------------------> */
 @media (min-width: 426px) {
   .theCover {
@@ -71,8 +210,8 @@ body {
   }
   .mainImagesContainer,
   .myInfo {
-    height: 100%;
-    margin-top: 100px;
+    height: calc(100%-100px);
+    margin-top: 0;
     align-items: center;
   }
   .myInfo > ul {
