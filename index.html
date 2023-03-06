@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cantarell&family=Caveat:wght@700&family=Montserrat:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/normalize.css" />
@@ -248,7 +248,7 @@
         </div>
         <div class="secondSubTitle">Prototipo Baja Fidelidad (Lo-Fi)</div>
         <div class="hlContainer"><div class="hl"></div></div>
-        <div class="txtContainerCentered">
+        <div class="txtContainerCentered noMrgBtm">
           El proceso de digitalización de los wireframes en papel, me permitió
           observar algunos cambios necesarios en el diseño original y comenzar a
           abarcar más de las necesidades de los usuarios.
@@ -283,6 +283,188 @@
               Los elementos en la barra de navegación son demasiado grandes
             </li>
           </ul>
+        </div>
+      </div>
+
+      <div class="generalContainers">
+        <div class="subTitles">Guía de Diseño</div>
+        <div class="secondSubTitle">Colores</div>
+        <div class="dsgContent">
+          <div class="colorSquare" id="csOrange"></div>
+          <div class="colorSquare" id="csPurple"></div>
+          <div class="colorSquare" id="csGray"></div>
+          <div class="colorSquare" id="csWhite"></div>
+        </div>
+        <div class="hlContainer"><div class="hl"></div></div>
+
+        <div class="secondSubTitle">Fuentes</div>
+        <div class="fontContent">
+          <div class="montserrat">
+            <div class="fontTitle">AaEeIiOoUu</div>
+            <div class="fontDesc">Montserrat: Para títulos</div>
+          </div>
+          <div class="cantarell">
+            <div class="fontTitle">AaEeIiOoUu</div>
+            <div class="fontDesc">
+              Cantarell: Para diferenciar alguna palabra específica en los
+              títulos y texto en general
+            </div>
+          </div>
+        </div>
+        <div class="hlContainer"><div class="hl"></div></div>
+
+        <div class="secondSubTitle">Diseño de Botones</div>
+        <div class="btnContent">
+          <button class="dsgBtn" id="bigBtn">Texto botón</button>
+          <button class="dsgBtn" id="smallBtn">Texto botón</button>
+          <button class="dsgBtn" id="medBtn">Texto botón</button>
+          <button class="dsgBtn" id="trashBtn">
+            <img
+              src="/img/designGuide/delete_FILL1_wght400_GRAD200_opsz48.svg"
+              alt="Delete"
+            />
+          </button>
+          <button class="dsgBtn" id="delBtn">Eliminar</button>
+        </div>
+        <div class="hlContainer"><div class="hl"></div></div>
+
+        <div class="secondSubTitle">Efectos Sombra</div>
+        <div class="btnContent">
+          <div class="shadowSquare" id="csGray"></div>
+        </div>
+        <div class="txtContainerCentered noMrgBtm">
+          RESALTAR (botones y elementos clickeables fuera de la barra de
+          navegación)
+        </div>
+      </div>
+
+      <div class="generalContainers">
+        <div class="subTitles">Refinando el Diseño</div>
+        <div class="imgContent">
+          <img src="/img/designRef/Mockup.png" alt="Mockup" />
+        </div>
+        <div class="secondSubTitle">Maqueta</div>
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="txtContainerCentered">
+          Después de los estudios de usabilidad, se realizaron cambios y se
+          complemento el diseño con algunos elementos nuevos dentro del flujo
+          del usuario
+        </div>
+
+        <div class="imgContent">
+          <img
+            src="/img/designRef/HI-FI Proto.png"
+            alt="Digital wireframe"
+            srcset=""
+          />
+        </div>
+        <div class="secondSubTitle">Prototipo Alta Fidelidad (Hi-Fi)</div>
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="txtContainerCentered">
+          Además de la implementación de color y algunos elementos de diseño
+          como la profundidad, se modificaron cambios dentro de la barra de
+          navegación, esto de acuerdo a los resultados de los estudios de
+          usabilidad
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/img/designRef/D1-Portada.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/img/designRef/D1-Artistas.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/img/designRef/D1-Artista.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="secondSubTitle">Ejemplos del diseño final</div>
+        <div class="hlContainer"><div class="hl"></div></div>
+      </div>
+
+      <div class="generalContainers">
+        <div class="subTitles">Reflexiones</div>
+        <div class="txtContainer">
+          <div class="competitors">
+            EL <span class="hlOrange">DISEÑO</span> ES PARA EL
+            <span class="hlOrange">USUARIO</span>
+          </div>
+          <div class="competitors">
+            LA <span class="hlOrange">ACCESIBILIDAD</span> NO ES OPCIONAL
+          </div>
+          <div class="competitors">
+            LA <span class="hlOrange">INVESTIGACIÓN</span> NOS LLEVA A UNA
+            <span class="hlOrange">DECISIÓN</span>
+          </div>
+        </div>
+
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="txtContainerCentered">
+          Durante este proyecto pude comprobar de manera práctica que el proceso
+          de diseño no es sencillo, ni es fácil, pero es muy gratificante.
+          <br />
+          El diseñador no tiene la última palabra, no deben existir egos
+          involucrados en el proceso de diseño, pue al final, el usuario es
+          quién conoce mejor sus necesidades y es a quien debemos recurrir para
+          confirmar si nuestro producto logra ayudarlo o facilitar su vida de
+          alguna manera.<br />
+          Me llevo un gran aprendizaje sobre el diseño UX y algunas de sus
+          herramientas: Estudios de usabilidad, guías de diseño, Wireframes,
+          creación de personas, etc.
         </div>
       </div>
     </main>

@@ -11,6 +11,7 @@ body {
 }
 
 footer {
+  z-index: 2;
   background-color: #ff914d;
   color: #ffffff;
   position: fixed;
