@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell&family=Caveat:wght@700&family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/styleNavBar.css" />
+    <link rel="stylesheet" href="/css/styleFooter.css" />
+  </head>
+  <body>
+    <nav class="navBar">
+      <div class="imageContainer">
+        <img src="/img/LOGO_ARTE.png" alt="logo mas arte" id="masArteLogo" />
+      </div>
+      <div class="navBtns">
+        <a href="#inicio" class="navAnchor">Inicio</a>
+        <a href="#masarte" class="navAnchor">+Arte</a>
+        <a href="#retos" class="navAnchor">Retos</a>
+        <a href="#usuarios" class="navAnchor">Usuarios</a>
+        <a href="#auditoria" class="navAnchor">Auditoría</a>
+        <a href="#diseño" class="navAnchor">Diseño</a>
+        <a href="#reflexiones" class="navAnchor">Reflexiones</a>
+      </div>
+      <div class="hamburger">
+        <div class="_layer -top"></div>
+        <div class="_layer -mid"></div>
+        <div class="_layer -bottom"></div>
+      </div>
+      <nav class="menuppal">
+        <ul class="ulMovMenu">
+          <li><a href="#inicio" class="hamBtn">Inicio</a></li>
+          <li><a href="#masarte" class="hamBtn">+Arte</a></li>
+          <li><a href="#retos" class="hamBtn">Retos</a></li>
+          <li><a href="#usuarios" class="hamBtn">Usuarios</a></li>
+          <li><a href="#auditoria" class="hamBtn">Auditoría</a></li>
+          <li><a href="#diseño" class="hamBtn">Diseño</a></li>
+          <li><a href="#reflexiones" class="hamBtn">Reflexiones</a></li>
+        </ul>
+      </nav>
+    </nav>
+
+    <main>
+      <div class="theCover" id="inicio">
+        <div class="mainImagesContainer">
+          <div class="phoneImg">
+            <img
+              class="phoneScreen"
+              src="/img/Iphone_Mockup.png"
+              alt="Phonescreen with the landing page of +Arte"
+            />
+          </div>
+          <div class="masArteLogo">
+            <img
+              class="masArteMain"
+              src="/img/LOGO_ARTE.png"
+              alt="Logo MasArte"
+            />
+          </div>
+        </div>
+
+        <!-- <hr class="diviLine" /> -->
+        <div class="hl" id="hlCover"></div>
+
+        <div class="myInfo">
+          <ul>
+            <li><span class="hlMyInfo">Projecto:</span> App +ARTE Galería</li>
+            <li>
+              <span class="hlMyInfo">Rol:</span> Investigador y diseñador UX
+            </li>
+            <li>
+              <span class="hlMyInfo">Duración:</span> Noviembre 2022 -<br />Febrero
+              2023
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="generalContainers" id="masarte">
+        <div class="subTitles">+ ARTE</div>
+        <div class="txtDiv">
+          +ARTE es una galería de arte mexicano especializada en pinturas,
+          esculturas y trabajos artesanales elaboradas por artistas y artesanos
+          locales El proyecto se enfoca en el diseño para la experiencia digital
+          de +Arte y tiene dos propósitos principales: <br />
+          1) Acentuar la presencia digital de la galería. <br />
+          2) Aumentar la difusión del trabajo de los artistas y artesanos
+          mexicanos que colaboran con la galería.
+        </div>
+      </div>
+
+      <div class="generalContainers" id="retos">
+        <div class="subTitles">Retos</div>
+        <div class="txtContainer">
+          <div class="txtContainerTitle">El Problema</div>
+          <div class="txtContainerText">
+            El acceso a pinturas y esculturas suele ser difícil, especialmente
+            para las personas que recién se adentran en el mundo del
+            coleccionismo de arte.
+          </div>
+        </div>
+        <div class="txtContainer">
+          <div class="txtContainerTitle">El Objetivo</div>
+          <div class="txtContainerText">
+            Facilitar el acceso a obras de arte auténticas para cualquier
+            usuario, así mismo ayudando a difundir las obras de los artistas que
+            colaboran con +Arte Galería.
+          </div>
+        </div>
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="subTitles">¿Qué buscamos?</div>
+        <div class="txtContainerText">
+          <ul>
+            <li>
+              Lograr un diseño de interfaz claro y amigable para usuarios de
+              cualquier edad
+            </li>
+            <li>Resaltar no sólo a las obras, si no también a los artistas</li>
+            <li>Brindar una experiencia accesible</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="generalContainers" id="usuarios">
+        <div class="subTitles">Conoce a los Usuarios</div>
+        <div class="txtDiv">
+          <div class="personCard">
+            <div class="personImg">
+              <img src="/img/pngPerson/old-woman.png" alt="Patricia Miller" />
+            </div>
+            <div class="personText">
+              <div class="personInfo">
+                <div class="personName">Nombre: Patricia Miller</div>
+                <div class="personAge">Edad: 64</div>
+                <div class="personOcup">Ocupación: Enfermera (Retirada)</div>
+              </div>
+              <div class="personDescr">
+                Patricia Miller es una enfermera retirada que se mudó a México
+                para conocer más sobre el arte y la cultura. No domina el idioma
+                (Español) aún y necesita poder reservar visitas guiadas a
+                galerías de arte, las cuales tienen exposiciones de obras
+                tradicionales mexicanas, porque quiere comenzar su propia
+                colección de arte, y de esta forma acercarse más a la cultura.
+              </div>
+            </div>
+          </div>
+          <div class="personCard">
+            <div class="personImg">
+              <img src="/img/pngPerson/man.png" alt="Diego Cedeño" />
+            </div>
+            <div class="personText">
+              <div class="personInfo">
+                <div class="personName">Nombre: Diego Cedeño</div>
+                <div class="personAge">Edad: 36</div>
+                <div class="personOcup">Ocupación: Estudiante de Doctorado</div>
+              </div>
+              <div class="personDescr">
+                Diego es un estudiante de doctorado, actualmente se encuentra
+                realizando un proceso de investigación sobre la identidad
+                nacional de diferentes países. Esto le ha permitido viajar a
+                diferentes partes del mundo y experimentar su cultura,
+                gastronomía y arte.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="generalContainers" id="auditoria">
+        <div class="subTitles">Auditoría Competitiva</div>
+        <div class="txtContainer">
+          <div class="competitors">Arte de Oaxaca</div>
+          <div class="competitors">Quetzalli</div>
+          <div class="competitors">Galería Enrique Guerrero</div>
+          <div class="competitors">Aura Galerías</div>
+          <div class="competitors">Galería NN</div>
+        </div>
+
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="subTitles">¿Qué buscamos?</div>
+        <div class="txtContainerText">
+          Algunas oportunidades que identificadas incluyen:
+          <ul class="ulTxt">
+            <li>Clara definición de servicios ofrecidos</li>
+            <li>
+              La aplicación de funcionalidades directas en la página / app
+            </li>
+            <li>La implementación de características para la accesibilidad</li>
+            <li>Información detallada de Artistas y sus obras</li>
+            <li>Diseño que refleje identidad de marca</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="generalContainers" id="diseño">
+        <div class="subTitles">Comienzo del Diseño</div>
+        <div class="imgContent">
+          <img
+            src="/img/designStart/sketchMano.jpg"
+            alt="Handmade wireframe"
+            srcset=""
+          />
+        </div>
+        <div class="secondSubTitle">Wireframe en Papel</div>
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="txtContainerCentered">
+          Con base en la investigación y teniendo en cuenta las oportunidades
+          que fueron identificadas comencé con el diseño de wireframes en papel.
+          En este caso, se dió la experimentación e intento de organizar el
+          contenido en 4 diferentes distribuciones para hacer clara y sencilla
+          la experiencia de usuario.
+        </div>
+
+        <div class="imgContent">
+          <img
+            src="/img/designStart/CutPrimerWireframe.png"
+            alt="Digital wireframe"
+            srcset=""
+          />
+        </div>
+        <div class="secondSubTitle">Del Papel a lo Digital</div>
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="txtContainerCentered">
+          El proceso de digitalización de los wireframes en papel, me permitió
+          observar algunos cambios necesarios en el diseño original y comenzar a
+          abarcar más de las necesidades de los usuarios.
+        </div>
+
+        <div class="imgContent">
+          <img
+            src="/img/designStart/Lo-FiProto.png"
+            alt="Digital wireframe"
+            srcset=""
+          />
+        </div>
+        <div class="secondSubTitle">Prototipo Baja Fidelidad (Lo-Fi)</div>
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="txtContainerCentered noMrgBtm">
+          El proceso de digitalización de los wireframes en papel, me permitió
+          observar algunos cambios necesarios en el diseño original y comenzar a
+          abarcar más de las necesidades de los usuarios.
+        </div>
+      </div>
+
+      <div class="generalContainers">
+        <div class="subTitles">Estudio de Usabilidad</div>
+        <div class="secondSubTitle">Hallazgos primera ronda</div>
+        <div class="txtContainerText">
+          <ul class="ulTxt">
+            <li>No hay claridad sobre la información del artista</li>
+            <li>
+              Confusión al principio del flujo por las palabras Art & Atrwork
+            </li>
+            <li>
+              Dimensiones de algunos elementos general problemas al usuario
+            </li>
+          </ul>
+        </div>
+
+        <div class="hlContainer"><div class="hl"></div></div>
+
+        <div class="secondSubTitle">Hallazgos segunda ronda</div>
+        <div class="txtContainerText">
+          <ul class="ulTxt">
+            <li>Confusión con el orden en los botones de navegación</li>
+            <li>
+              El acceso a perfil desde la barra de navegación es problemático
+            </li>
+            <li>
+              Los elementos en la barra de navegación son demasiado grandes
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="generalContainers">
+        <div class="subTitles">Guía de Diseño</div>
+        <div class="secondSubTitle">Colores</div>
+        <div class="dsgContent">
+          <div class="colorSquare" id="csOrange"></div>
+          <div class="colorSquare" id="csPurple"></div>
+          <div class="colorSquare" id="csGray"></div>
+          <div class="colorSquare" id="csWhite"></div>
+        </div>
+        <div class="hlContainer"><div class="hl"></div></div>
+
+        <div class="secondSubTitle">Fuentes</div>
+        <div class="fontContent">
+          <div class="montserrat">
+            <div class="fontTitle">AaEeIiOoUu</div>
+            <div class="fontDesc">Montserrat: Para títulos</div>
+          </div>
+          <div class="cantarell">
+            <div class="fontTitle">AaEeIiOoUu</div>
+            <div class="fontDesc">
+              Cantarell: Para diferenciar alguna palabra específica en los
+              títulos y texto en general
+            </div>
+          </div>
+        </div>
+        <div class="hlContainer"><div class="hl"></div></div>
+
+        <div class="secondSubTitle">Diseño de Botones</div>
+        <div class="btnContent">
+          <button class="dsgBtn" id="bigBtn">Texto botón</button>
+          <button class="dsgBtn" id="smallBtn">Texto botón</button>
+          <button class="dsgBtn" id="medBtn">Texto botón</button>
+          <button class="dsgBtn" id="trashBtn">
+            <img
+              src="/img/designGuide/delete_FILL1_wght400_GRAD200_opsz48.svg"
+              alt="Delete"
+            />
+          </button>
+          <button class="dsgBtn" id="delBtn">Eliminar</button>
+        </div>
+        <div class="hlContainer"><div class="hl"></div></div>
+
+        <div class="secondSubTitle">Efectos Sombra</div>
+        <div class="btnContent">
+          <div class="shadowSquare" id="csGray"></div>
+        </div>
+        <div class="txtContainerCentered noMrgBtm">
+          RESALTAR (botones y elementos clickeables fuera de la barra de
+          navegación)
+        </div>
+      </div>
+
+      <div class="generalContainers">
+        <div class="subTitles">Refinando el Diseño</div>
+        <div class="imgContent">
+          <img src="/img/designRef/Mockup.png" alt="Mockup" />
+        </div>
+        <div class="secondSubTitle">Maqueta</div>
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="txtContainerCentered">
+          Después de los estudios de usabilidad, se realizaron cambios y se
+          complemento el diseño con algunos elementos nuevos dentro del flujo
+          del usuario
+        </div>
+
+        <div class="imgContent">
+          <img
+            src="/img/designRef/HI-FI Proto.png"
+            alt="Digital wireframe"
+            srcset=""
+          />
+        </div>
+        <div class="secondSubTitle">Prototipo Alta Fidelidad (Hi-Fi)</div>
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="txtContainerCentered">
+          Además de la implementación de color y algunos elementos de diseño
+          como la profundidad, se modificaron cambios dentro de la barra de
+          navegación, esto de acuerdo a los resultados de los estudios de
+          usabilidad
+        </div>
+        <div class="carouselContainer">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/img/designRef/D1-Portada.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/designRef/D1-Artistas.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/designRef/D1-Artista.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="secondSubTitle">Ejemplos del diseño final</div>
+        <div class="hlContainer"><div class="hl"></div></div>
+      </div>
+
+      <div class="generalContainers" id="reflexiones">
+        <div class="subTitles">Reflexiones</div>
+        <div class="txtContainer">
+          <div class="competitors">
+            EL <span class="hlOrange">DISEÑO</span> ES PARA EL
+            <span class="hlOrange">USUARIO</span>
+          </div>
+          <div class="competitors">
+            LA <span class="hlOrange">ACCESIBILIDAD</span> NO ES OPCIONAL
+          </div>
+          <div class="competitors">
+            LA <span class="hlOrange">INVESTIGACIÓN</span> NOS LLEVA A UNA
+            <span class="hlOrange">DECISIÓN</span>
+          </div>
+        </div>
+
+        <div class="hlContainer"><div class="hl"></div></div>
+        <div class="txtContainerCentered" id="finalText">
+          Durante este proyecto pude comprobar de manera práctica que el proceso
+          de diseño no es sencillo, ni es fácil, pero es muy gratificante.
+          <br />
+          El diseñador no tiene la última palabra, no deben existir egos
+          involucrados en el proceso de diseño, pue al final, el usuario es
+          quién conoce mejor sus necesidades y es a quien debemos recurrir para
+          confirmar si nuestro producto logra ayudarlo o facilitar su vida de
+          alguna manera.<br />
+          Me llevo un gran aprendizaje sobre el diseño UX y algunas de sus
+          herramientas: Estudios de usabilidad, guías de diseño, Wireframes,
+          creación de personas, etc.
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footerContainer">
+        <div class="fData">
+          Diseñador UX - Desarrollador FrontEnd<br />
+          Juan Carlos Montes Pesquera
+        </div>
+        <div class="vl"></div>
+        <div class="socialMedia">
+          <div class="linkedin">
+            <a
+              href="https://www.linkedin.com/in/juanmontespesquera/"
+              target="_blank"
+              ><img
+                src="/img/svgIcons/icons8-linkedin-500.svg"
+                alt="LinkedIn icon"
+            /></a>
+          </div>
+          <div class="gitHub">
+            <a href="https://github.com/JCMP92" target="_blank"
+              ><img
+                src="/img/svgIcons/iconmonstr-github-1.svg"
+                alt="Github icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
