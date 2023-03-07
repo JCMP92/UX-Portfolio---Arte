@@ -1,5 +1,6 @@
 // selector
-var menu = document.querySelector('.hamburger');
+const menu = document.querySelector('.hamburger');
+const hamBtn = document.getElementsByClassName('hamBtn');
 
 // method
 function toggleMenu(event) {
@@ -10,3 +11,10 @@ function toggleMenu(event) {
 
 // event
 menu.addEventListener('click', toggleMenu, false);
+
+for (const btn of hamBtn) {
+  btn.addEventListener('click', function onClick() {
+    menu.classList.remove('is-active');
+    document.querySelector('.menuppal').classList.remove('is_active');
+  });
+}
