@@ -469,4 +469,7 @@ body {
   .generalContainers {
     padding-top: 100px;
   }
+  .txtDiv {
+    padding: 0 15%;
+  }
 }
