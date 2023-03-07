@@ -466,4 +466,7 @@ body {
   .txtContainer {
     padding: 25px;
   }
+  .generalContainers {
+    padding-top: 100px;
+  }
 }
