@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #ffffff;
 }
 .mainImagesContainer {
   margin-top: 70px;
@@ -93,12 +94,23 @@ body {
 
 .subTitles {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color: #ff914d;
   font-family: 'Caveat';
   font-weight: 700;
   font-size: 40px;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
+  margin-left: 20px;
+}
+
+.miniTitles {
+  display: flex;
+  justify-content: center;
+  color: #ff914d;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 24px;
 }
 
 .txtDiv {
@@ -451,6 +463,19 @@ body {
   #finalText {
     margin-bottom: 150px;
   }
+  .mainSubContainer {
+    max-width: 900px;
+    background-color: #ffffff;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/fondoMasArte.jpg);
+    background-size: 150px 100px;
+    background-repeat: repeat;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -471,5 +496,15 @@ body {
   }
   .txtDiv {
     padding: 0 15%;
+    font-size: 18px;
+  }
+  .txtContainerText,
+  .txtContainerCentered,
+  .fontDesc,
+  .personDescr {
+    font-size: 18px;
+  }
+  .subTitles {
+    margin-left: 100px;
   }
 }
